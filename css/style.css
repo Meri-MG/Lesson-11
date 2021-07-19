@@ -38,6 +38,22 @@ nav ul li a:hover {
     color: #FA6980;
     font-size: 13px;
 }
+/* burger icon styles */
+.burger-icon {
+    display: none;
+}
+.mobile-nav {
+    position: fixed;
+    font-size: 10px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.burger-icon:hover .mobile-nav{
+    display: block;
+    color: #A6ADB4;
+}
 
 /* section1 styles */
 
@@ -195,4 +211,19 @@ margin-bottom: 8px;
     color:#CBD0D3;
     font-size: 13px;
     font-weight: 700;
+}
+/* icons styles */
+.fa-planet-moon {
+    color:black;
+}
+.icons {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fa-facebook-f, .fa-twitter, .fa-planet-moon, .fa-instagram {
+    font-size: 16px;
+    color: #FFFFFF;
 }
