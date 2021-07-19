@@ -194,8 +194,7 @@ input[type="email"]{
     background-color:  #A6ADB4;
     border: 0.5px solid #CBD0D3;
     border-radius: 5px;
-    margin-bottom: 16px;
-    
+    margin-bottom: 16px;  
 }
 .lists li a, .logo a {
 color:#CBD0D3;
